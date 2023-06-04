@@ -466,21 +466,14 @@ border-radius: 4px;
 .bio-cards-list{
   width:360px;
   height: 420px;
-  background-color: var(--white-color);
+  background: var(--white-color);
   border: 1px solid #E7E9FC;
   margin-bottom: 48px;
-  width: calc((100% - 48px) / 3);
+  
 }
 .bio-img{
   padding-top: 72px;
  
-}
-.link-port{
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none; 
-  
-
 }
 .btn-second-page{
   display:flex;
@@ -507,7 +500,6 @@ border-radius: 4px;
   margin-top: 32px;
   margin-bottom: 8px;
   padding-left: 16px;
-
 }
 .smth-pa{
   font-size: 16px;
