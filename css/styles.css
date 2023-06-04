@@ -27,8 +27,7 @@ img{
   display:block;
 }
 .container {
-  
-  width: 1158px;
+   width: 1158px;
  padding: 0 15px;
   margin: 0 auto;
   outline: 2px solid red;
@@ -143,14 +142,18 @@ padding-bottom:268px ;
 margin: 0 auto;
 padding-bottom:144px;
 padding: 188px 0;
-
+background-color: var(--grey-color);
+  margin: 0 auto;
+  padding-left: 156px;
+  padding-right: 156px;
+   
 }
 .btn-m {
   margin: 0 auto;
  margin-top: 48px;
 
 }
-.main-container {
+/* .main-container {
   background-color: var(--grey-color);
   margin: 0 auto;
   padding-left: 156px;
@@ -158,7 +161,7 @@ padding: 188px 0;
    
   
   
-}
+} */
 .title {
   font-weight: 700;
   font-size: 56px;
