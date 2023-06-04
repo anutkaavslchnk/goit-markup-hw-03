@@ -132,6 +132,8 @@ body {
   font-style: normal;
 }
 /* MAIN */
+
+/* SECTION 1 */
 .first-sec {
   background-color: var(--grey-color);
 justify-content:center;
@@ -195,6 +197,7 @@ background-color: var(--grey-color);
 .button:focus {
   background-color: var(--ocean-color);
 }
+/* SECTION 2 */
 .smth-m {
   padding-top: 144px;
   padding-left: 156px;
