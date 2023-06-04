@@ -417,6 +417,10 @@ padding-right: 156px;
   gap: 24px;
   justify-content: center;
 }
+.portfolio{
+   padding-top: 96px; 
+   padding-bottom: 120px; 
+}
 .bio-sec{
   margin: 0 auto ;
   padding-left: 156px;
@@ -425,7 +429,7 @@ padding-right: 156px;
   justify-content: center;
 }
 .bio-btn-items{
-  padding-top: 96px;
+
 }
 .btn-items {
   min-width: 116px;
@@ -446,12 +450,14 @@ padding-right: 156px;
   
   border: 1px solid #E7E9FC;
 border-radius: 4px;
+ padding: 12px 24px;
 }
 .btn-items:hover,
 .btn-items:focus {
   color: var(--white-color);
   background-color: var(--ocean-color);
   min-width: 69px;
+  border: 1px solid transparent
 }
 .btn > li {
   list-style-type: none;
@@ -460,19 +466,34 @@ border-radius: 4px;
 .bio-cards-list{
   width:360px;
   height: 420px;
-  background: var(--white-color);
+  background-color: var(--white-color);
   border: 1px solid #E7E9FC;
   margin-bottom: 48px;
+  width: calc((100% - 48px) / 3);
 }
 .bio-img{
   padding-top: 72px;
  
 }
+.link-port{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none; 
+  
 
+}
+.btn-second-page{
+  display:flex;
+  justify-content: center; 
+  gap: 24px;
+  margin-bottom: 72px;
+}
 .second-page-img{
   display: flex;
   flex-wrap: wrap;
   gap:24px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .second-page-title {
   font-weight: 500;
@@ -486,6 +507,7 @@ border-radius: 4px;
   margin-top: 32px;
   margin-bottom: 8px;
   padding-left: 16px;
+
 }
 .smth-pa{
   font-size: 16px;
